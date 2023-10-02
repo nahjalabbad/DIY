@@ -1,0 +1,253 @@
+﻿
+<html>
+<head>
+	<title>Simply Handmade</title>
+	<link href="pictures/logo.jpg" rel="icon" type="image/jpg">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="design.css" rel="stylesheet" type="text/css">
+	<link href="social.css" rel="stylesheet" type="text/css">
+	<style>
+{box-sizing: border-box;}
+body {font-family: fangsong;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #eddab9;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #f5b19c;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Content <i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content">
+				<a href="Sewing.html" target="_blank">Sewing & Knitting</a> <a href="garden.html" target="_blank">Gardening</a> <a href="BEAUTY.html" target="_blank">Beauty Hacks</a> <a href="Furniture.html" target="_blank">Furniture Decor</a>
+			</div>
+		</div><a href="contact.html" target="_blank">Contact us</a> <a href="about.html" target="_blank">About us</a> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Subscribe</button>
+		<div class="modal" id="id01">
+			<span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close">&times;</span>
+			<form action="/action_page.php" class="modal-content">
+				<div class="container">
+					<h1 style="color: #a17878">Subscibe</h1>
+					<p>Please fill in this form to join our community</p>
+					<hr style="border:1.2px solid #c4aaaa;">
+					<label for="1stname"><b>First Name</b></label> <input name="psw" placeholder="Enter First Name" required="" type="text"> <label for="email"><b>Email</b></label> <input name="email" placeholder="Enter Email" required="" type="text"><br>
+					<label for="gender"><b>Gender</b></label> <input name="gender" type="radio" value="male"> Male <input checked="checked" name="gender" type="radio" value="female"> Female<br>
+					<label><b>Do you like DIYs?!</b> <input checked="checked" name="like" style="margin-bottom:15px" type="checkbox" value="yes"> Yes &nbsp; <input name="like" type="checkbox" value="no"> No</label><br>
+					<label><b>Favorite DIY ?!</b></label> <select name="diy">
+						<option value="beauty">
+							Beauty Hacks
+						</option>
+						<option value="garden">
+							Garden
+						</option>
+						<option value="sewing">
+							Sewing & Knitting
+						</option>
+						<option value="furniture">
+							Furniture Makeover
+						</option>
+					</select><br>
+					<br>
+					<div class="clearfix">
+						<button class="cancelbtn" onclick="document.getElementById('id01').style.display='none'" type="button">Cancel</button> <button class="signupbtn" type="submit">Subscribe</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		if (event.target == modal) {
+		  modal.style.display = "none";
+		}
+		}
+		</script>
+	</div>
+	<center>
+		<img height="500" src="pictures/handmade.jpg" width="700">
+	</center>
+	<hr style="border: 2px solid #c4aaaa ;" width="70%">
+	<br>
+	<br>
+	
+	<table align="center">
+		<tr>
+			<td colspan="2">
+				
+				<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="pictures/knitt0.jpg" style="width:100%">
+  <div class="text">Sewing & Knitting</div>
+</div>
+        <div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="pictures/garden0.jpg" style="width:100%">
+  <div class="text">Gardening</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="pictures/furn0.jpg" style="width:100%">
+  <div class="text">Furniture Makeover</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="pictures/beauty0.jpg" style="width:100%">
+  <div class="text">Beauty Hacks</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+                
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<a href="BEAUTY.html" target="_blank"><img src="pictures/bicon.png"></a>
+			</td>
+			<td align="center">
+				<a href="garden.html" target="_blank"><img src="pictures/gicon.png"></a>
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<a href="Sewing.html" target="_blank"><img src="pictures/sicon.png"></a>
+			</td>
+			<td align="center">
+				<a href="Furniture.html" target="_blank"><img src="pictures/ficon.png"></a>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<hr style="border:1.2px solid #c4aaaa;">
+				<br>
+				<center>
+					<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+					<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+					<div class="social">
+						<a class="link instagram" href="https://instagram.com/diy.hack.hub?utm_source=ig_profile_share&igshid=2ms602vp6jpl" target="_parent"><span class="fa fa-instagram"></span></a> <a class="link twitter" href="https://twitter.com/WeirdLifeHacks" target="_parent"><span class="fa fa-twitter"></span></a> <a class="link youtube" href="https://www.youtube.com/user/SaraBeautyCorner" target="_parent"><span class="fa fa-youtube"></span></a> <a class="link pinterest" href="https://pin.it/s5ry5dknjtxyql" target="_parent"><span class="fa fa-pinterest"></span></a> <a class="link snapchat" href="https://www.snapchat.com/add/mrkate" target="_parent"><span class="fa fa-snapchat"></span></a>
+					</div>
+				</center>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

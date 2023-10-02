@@ -1,0 +1,240 @@
+
+<html>
+<head>
+    <link href="pictures/logo.jpg" rel="icon" type="image/jpg">
+	<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="design.css" rel="stylesheet" type="text/css">
+	<title>Beauty Hacks</title>
+    <style>
+
+	.alert {
+	 padding: 20px;
+	 background-color: #c4aaaa;
+	 color: white;
+	}
+
+	.closebtn {
+	 margin-left: 15px;
+	 color: white;
+	 font-weight: bold;
+	 float: right;
+	 font-size: 22px;
+	 line-height: 20px;
+	 cursor: pointer;
+	 transition: 0.3s;
+	}
+
+	.closebtn:hover {
+	 color: black;
+	}
+
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Content <i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content">
+				<a href="Sewing.html" target="_blank">Sewing & Knitting</a> <a href="garden.html" target="_blank">Gardening</a> <a href="BEAUTY.html" target="_blank">Beauty Hacks</a> <a href="Furniture.html" target="_blank">Furniture Decor</a>
+			</div>
+		</div><a href="contact.html" target="_blank">Contact us</a> <a href="about.html" target="_blank">About us</a> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Subscribe</button>
+		<div class="modal" id="id01">
+			<span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close">&times;</span>
+			<form action="/action_page.php" class="modal-content">
+				<div class="container">
+					<h1 style="color: #a17878">Subscibe</h1>
+					<p>Please fill in this form to join our community</p>
+					<hr style="border:1.2px solid #c4aaaa;">
+					<label for="1stname"><b>First Name</b></label> <input name="psw" placeholder="Enter First Name" required="" type="text"> <label for="email"><b>Email</b></label> <input name="email" placeholder="Enter Email" required="" type="text"><br>
+					<label for="gender"><b>Gender</b></label> <input name="gender" type="radio" value="male"> Male <input checked="checked" name="gender" type="radio" value="female"> Female<br>
+					<label><b>Do you like DIYs?!</b> <input checked="checked" name="like" style="margin-bottom:15px" type="checkbox" value="yes"> Yes &nbsp; <input name="like" type="checkbox" value="no"> No</label><br>
+					<label><b>Favorite DIY ?!</b></label> <select name="diy">
+						<option value="beauty">
+							Beauty Hacks
+						</option>
+						<option value="garden">
+							Garden
+						</option>
+						<option value="sewing">
+							Sewing & Knitting
+						</option>
+						<option value="furniture">
+							Furniture Makeover
+						</option>
+					</select><br>
+					<div class="clearfix">
+						<button class="cancelbtn" onclick="document.getElementById('id01').style.display='none'" type="button">Cancel</button> <button class="signupbtn" type="submit">Subscibe</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		if (event.target == modal) {
+		  modal.style.display = "none";
+		}
+		}
+		</script>
+	</div>
+	<center>
+		<img height="500" src="pictures/handmade.jpg" width="700">
+	</center>
+	<h1 id="top" align="center" style="color:#9E8C89">- BEAUTY DIY -</h1><br>
+	<h2 align="center" style="color:#b09999">"The beauty of a woman must be seen from in her eyes, because that is the doorway to her heart, the place where love resides."<br>
+	... Let the beauty of what you love be what you do ...</h2><br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table>
+		<tr>
+			<td align="center" colspan="5"><img height="55%" src="pictures/Beauty/HAIR.png" width="20%"></td>
+		</tr>
+		<tr>
+			<td colspan="5">
+				<hr style="border:10px solid #D5C3C3;">
+			</td>
+		</tr>
+		<tr align="center">
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/HxqiMMpq31Q" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Lip Stick</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/VK6vS_oRRTs" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Blusher</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/_fwr0sBIQbs" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Eyebrows</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/qJ1fP0j6qec" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Eyeshadow</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/aK9MSMNUUF0" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Eyeliner</h4>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" colspan="5"><br>
+			<br>
+			<br>
+			<img height="50%" src="pictures/Beauty/makeup.jpg" width="15%"></td>
+		</tr>
+		<tr>
+			<td colspan="5">
+				<hr style="border:10px solid #D5C3C3;">
+			</td>
+		</tr>
+		<tr align="center">
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/9slnGkQ1xzY" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Scrub Face</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/dEBLFyQuLHY" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Moisturizer</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/fAz7xH1Yc0Y" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Normal Skin Mask</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/KM1fu43xUhU" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Oily Skin Mask</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/vGQUZWxUJlw" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Eye Cream</h4>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" colspan="5"><br>
+			<br>
+			<br>
+			<img height="55%" src="pictures/Beauty/MAKEUP2.jpg" width="20%"></td>
+		</tr>
+		<tr>
+			<td colspan="5">
+				<hr style="border:10px solid #D5C3C3;">
+			</td>
+		</tr>
+		<tr align="center">
+			<td></td>
+		</tr>
+		<tr>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/Im9dS8Cfe78" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Hair Cream</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/Aq2Dm1vJdIA" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">hair conditioner</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/lJTr5bZt0G8" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Shampoo</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/KWAsZMIBFYQ" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Hair Gel</h4>
+			</td>
+			<td>
+				<iframe allowfullscreen frameborder="0" height="100%" src="https://www.youtube.com/embed/YdgvL8zBgBs" width="100%"></iframe><br>
+				<h4 align="center" style="color:#625555">Hair Dye</h4>
+			</td>
+		</tr>
+		<tr>
+			<td><br>
+			<br>
+			<br>
+			<br>
+			<br></td>
+		</tr>
+        <form action="https://www.youtube.com/user/SaraBeautyCorner/featured">
+		<tr>
+			<td align="center" colspan="5">
+				
+					<h3 style="color:#a17878">Give us some of your comments :</h3>
+				
+			</td>
+		</tr>
+		<tr>
+			<td align="center" colspan="5">
+				<textarea></textarea>&nbsp;&nbsp;&nbsp; <i class="fas fa-thumbs-up" onclick="myFunction(this)"></i> 
+				<script>
+				function myFunction(x) {
+				x.classList.toggle("fa-thumbs-down");
+				}
+				</script>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="5">
+				<div class="alert">
+					<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+					<center>
+						To Watch More Awesome <strong>Videos!</strong> click &nbsp;&nbsp; <input height="15%" type="submit" value="next" width="20%"><a href="#top">
+						<h4 align="center" style="color:#625555">Go Top</h4></a>
+					</center>
+				</div>
+			</td>
+		</tr>
+        </form>
+	</table>
+</body>
+</html>

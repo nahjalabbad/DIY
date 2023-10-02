@@ -1,0 +1,89 @@
+﻿
+<html>
+<head>
+	<title>Contact Us</title>
+	<link href="pictures/logo.jpg" rel="icon" type="image/jpg">
+	<link href="design.css" rel="stylesheet" type="text/css">
+	<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Content <i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content">
+				<a href="Sewing.html" target="_blank">Sewing & Knitting</a> <a href="garden.html" target="_blank">Gardening</a> <a href="BEAUTY.html" target="_blank">Beauty Hacks</a> <a href="Furniture.html" target="_blank">Furniture Decor</a>
+			</div>
+		</div><a href="contact.html" target="_blank">Contact us</a> <a href="about.html" target="_blank">About us</a> <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Subscribe</button>
+		<div class="modal" id="id01">
+			<span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close">&times;</span>
+			<form action="/action_page.php" class="modal-content">
+				<div class="container">
+					<h1 style="color: #a17878">Subscibe</h1>
+					<p>Please fill in this form to join our community</p>
+					<hr style="border:1.2px solid #c4aaaa;">
+					<label for="1stname"><b>First Name</b></label> <input name="psw" placeholder="Enter First Name" required="" type="text"> <label for="email"><b>Email</b></label> <input name="email" placeholder="Enter Email" required="" type="text"><br>
+					<label for="gender"><b>Gender</b></label> <input name="gender" type="radio" value="male"> Male <input checked="checked" name="gender" type="radio" value="female"> Female <br>
+					<label><b>Do you like DIYs?!</b> <input checked="checked" name="like" style="margin-bottom:15px" type="checkbox" value="yes"> Yes &nbsp; <input name="like" type="checkbox" value="no"> No</label><br>
+					<label><b>Favorite DIY ?!</b></label> <select name="diy">
+						<option value="beauty">
+							Beauty Hacks
+						</option>
+						<option value="garden">
+							Garden
+						</option>
+						<option value="sewing">
+							Sewing & Knitting
+						</option>
+						<option value="furniture">
+							Furniture Makeover
+						</option>
+					</select>
+					<div class="clearfix">
+						<button class="cancelbtn" onclick="document.getElementById('id01').style.display='none'" type="button">Cancel</button> <button class="signupbtn" type="submit">Subscibe</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		if (event.target == modal) {
+		  modal.style.display = "none";
+		}
+		}
+		</script>
+	</div>
+	<center>
+		<img height="500" src="pictures/handmade.jpg" width="700">
+	</center>
+	<hr style="border: 2px solid #c4aaaa ;" width="70%">
+	<br>
+	<br>
+	<center>
+		<table width="60%">
+			<tr>
+				<td>
+					<a href="https://www.instagram.com/diy.fun.amazing/?hl=en"><img src="pictures/SM1.jpg"></a>
+				</td>
+				<td>
+					<a href="https://twitter.com/diyideas?lang=en"><img src="pictures/SM2.jpg"></a>
+				</td>
+				<td>
+					<a href="https://www.youtube.com/channel/UChKlSK39lLg8eZHIX0iVzLA"><img src="pictures/SM3.jpg"></a>
+				</td>
+				<td>
+					<a href="https://www.pinterest.com/hgtv/handmade-diy/"><img src="pictures/SM4.jpg"></a>
+				</td>
+				<td>
+					<a href="https://www.facebook.com/DIYCraftsTV/"><img src="pictures/SM5.jpg"></a>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+</html>

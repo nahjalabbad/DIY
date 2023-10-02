@@ -1,0 +1,172 @@
+<html>
+<head> <title> Garden </title>
+<link rel="icon" type="image/jpg" href="pictures/logo.jpg"/>
+<link rel="stylesheet" type="text/css" href="design.css">
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.alert {
+  padding: 20px;
+  background-color: #c4aaaa;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+    .fa-thumbs-up {
+  font-size: 50px;  
+  cursor: pointer;
+  user-select: none;
+}
+.fa-thumbs-up:hover {
+  color: lightpink;
+}
+
+    </style>
+</head>
+<body>
+
+    
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Content 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Sewing.html" target="_blank"> Sewing & Knitting </a>
+      <a href="garden.html" target="_blank">Gardening</a>
+      <a href="BEAUTY.html" target="_blank"> Beauty Hacks</a> 
+      <a href="Furniture.html" target="_blank">Furniture Decor</a>
+   </div> 
+ </div>
+<a href="contact.html" target="_blank">Contact us</a>
+<a href="about.html" target="_blank">About us</a>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Subscribe</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1 style="color: #a17878">Subscibe</h1>
+      <p>Please fill in this form to join our community</p>
+      <hr style="border:1.2px solid #c4aaaa;">
+    <label for="1stname"><b>First Name</b></label>
+      <input type="text" placeholder="Enter First Name" name="psw" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+
+<br>
+      <label for="gender"><b>Gender</b></label>
+      <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female" checked="checked"> Female 
+        
+      <br>
+      <label> <b> Do you like DIYs?!</b> 
+          <input type="checkbox" name="like" value="yes" checked="checked" style="margin-bottom:15px"> Yes &nbsp;
+<input type="checkbox" name="like" value="no"> No 
+      </label>
+        <br>
+<label> <b> Favorite DIY ?!</b>  </label>
+        <select name="diy">
+<option value="beauty" select="selected"> Beauty Hacks </option>
+<option value="garden"> Garden </option>
+<option value="sewing"> Sewing & Knitting</option>
+<option value="furniture"> Furniture Makeover</option>
+</select>
+<br>
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Subscibe</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+    
+</div>
+<table>
+<center><img src="pictures/handmade.jpg" width="700" height="500"></center>
+<h1 id="top" align="center" style="color:#9E8C89">- GARDEN DIY - </h1><br>
+<h2 align="center" style="color:#b09999">"To see a world in a grain of sand and heaven in a wild flower hold infinity <br>
+in the palm of your hand and eternity in an hour"</h2>
+
+<tr><td colspan="5" align="center"><img src="pictures/Garden/GARDEN.jpg"  width="20%" height="50%"></td><tr>
+<tr><td colspan="5"><hr style="border:10px solid #D5C3C3;"></td></tr>
+<tr colspan="5" align="center"><br><br></tr>
+<tr>
+
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/3JF218EQWNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><h4 style="color:#625555" align="center">Diy Turtle Pond</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/p1m9kUJtgaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe><br><h4 style="color:#625555" align="center">Light Diy</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/9YnTF7ziT88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe><br><h4 style="color:#625555" align="center">Diy Backyard</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/pwi-mlH56PQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe><br><h4 style="color:#625555" align="center">Diy Planter</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/2oUZOmh7jCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe><br><h4 style="color:#625555" align="center">Gravel Makeover</h4></TD></tr>
+
+<tr><td colspan="5" align="center"><br><br><br><img src="pictures/Garden/garden2.jpg"  width="25%" height="50%"></td><tr>
+<tr><td colspan="5"><hr style="border:10px solid #D5C3C3;"></td></tr>
+<tr colspan="5" align="center"><br></tr>
+
+<TR>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/aPIHf78uVZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><h4 style="color:#625555" align="center">Diy Bench Swing</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/P_Z_-BGOois" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br><h4 style="color:#625555" align="center">Diy connect Four</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/2tDyJ-0NSJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><h4 style="color:#625555" align="center">Diy Bean Bag Toss</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/rYuoTeSg9J8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><h4 style="color:#625555" align="center">Diy Sandpit</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/FX1El_DRuDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br><h4 style="color:#625555" align="center">Diy slide</h4></TD></TR>
+
+<tr><td colspan="5" align="center"><br><br><br><img src="pictures/Garden/bird.jpg"  width="20%" height="50%"></td><tr>
+<tr><td colspan="5"><hr style="border:10px solid #D5C3C3;"></td></tr>
+<tr colspan="5" align="center"><br></tr>
+
+<TR>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/cjnW9zRTfuQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><h4 style="color:#625555" align="center">Diy outdoor chair</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/N0Rl-vWt6_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><h4 style="color:#625555" align="center">Diy Paver Patio</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/6liMOuSGZ5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br><h4 style="color:#625555" align="center">Diy Outdoor Section</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/QueD91uEGEg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><h4 style="color:#625555" align="center">Diy Pergola</h4></TD>
+<TD><iframe width="100%" height="100%" src="https://www.youtube.com/embed/dzfDJQmdXxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><h4 style="color:#625555" align="center">Diy Entertainment Area</h4></TD></TR> 
+<tr><td><br><br><br><br><br></td></tr>
+<form action="https://www.youtube.com/channel/UCKoMmMDJYMOMmZ7PbAWusgw">
+<tr>
+    <td colspan="5" align="center">  <h3 style="color:#a17878" >Give us some of your comments : </h3><br></td></tr>
+
+<tr>
+<td colspan="5" align="center"><textarea ROW="3" COLUMN="30"></textarea>&nbsp;&nbsp;&nbsp;
+<i onclick="myFunction(this)" class="fa fa-thumbs-up" align="center"></i>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("fa-thumbs-down");
+}
+</script>
+</td> </tr>
+<tr> <td colspan="5" ><div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+<center>To Watch More Awesome <strong>Videos!</strong> click &nbsp;&nbsp;
+    <input type="submit" value="next" width="20%" height="15%"><a href="#top"><h4 style="color:#625555" align="center">Go Top</h4></a>   </center> </div> </td> </tr>
+    </form>
+</table>
+</body>
+</html>
